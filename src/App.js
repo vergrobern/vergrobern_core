@@ -10,28 +10,25 @@ import Contact from './components/Contact';
 
 
 
-function App(props) {
+function App() {
 
   return(
     <Router>    
       <div>
       
-          <Route  path='/' exact  component={<Home/>}>
-            <Home />
-          </Route>
+          <Route  path='/' exact  component={Home} />
+     
           
-          <Route path='/about' component={<About/>}>
-            <About />
-          </Route>
+          <Route path='/about' component={About} />
+
           
-          <Route path='/services' component={Services}>
-          </Route>
+          <Route path='/services' component={Services} />
 
-          <Route path='/products' component={Products}>
-          </Route>
 
-          <Route path='/contact' component={Contact}>
-          </Route>
+          <Route path='/products' component={Products} />
+   
+
+          <Route path='/contact' component={Contact} />
 
 
           <Footer />

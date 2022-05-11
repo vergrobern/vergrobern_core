@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  background-image: url(images/body-grid.png);
+  background-position: center center;
+  background-size: cover;
+    font-family: 'montserrat', sans-serif;
+}
+
+:root {
+  --primaryColor:#fff;  
+  --secondaryColor: #000;
+  --color1:#3820AC;
+  --color2:#930FCB;
+  --headingColor:#2F2F2F;
+  --primaryColor2: #930FCB;
+  --HeaderBGOverlay: #191a22;
+    --textColor: #d4d4d4;
+    --secondaryText: #fff;
+    --secondary: #afafaf;
+    --textContent: #adadad;
+}

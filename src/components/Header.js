@@ -14,22 +14,22 @@ function Header(){
 
     const bar = () => {
         menu.classList.replace('trans', 'transform');
-        overlay.style.display = "block"
-        overlay.style.opacity = "1"
+        overlay.style.display = "block";
+        overlay.style.opacity = "1";
         // alert("I was clicked")
     }
     
     const close = () => {
         // alert("Side Menu Closed")
-        menu.classList.replace('transform', 'trans')
-        overlay.style.display = "none"
-        overlay.style.display = "0"
+        menu.classList.replace('transform', 'trans');
+        overlay.style.display = "none";
+        overlay.style.display = "0";
     }
 
    
 	 const over = () => {
         //  alert("Side Menu Closed")
-        menu.classList.replace('transform', 'trans')
+        menu.classList.replace('transform', 'trans');
         overlay.style.display = "none"
         overlay.style.display = "0"
     }
@@ -38,7 +38,7 @@ function Header(){
         <div>
             <nav className="nav-bar">
                 <div className="logo">
-                    <img src={logo} />
+                    <Link to="/"><img src={logo} /> </Link>
                 </div>
                 <ul className="nav trans">
                     <div className="mobile">

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import "./styles.css";
 import logo from "../images/png2.png";
 import {
@@ -61,7 +60,7 @@ function Footer() {
 							<li>Services</li>
 							<li>Products</li>
 							<li>Contact</li>
-                       {/* <Link to="/"> <li>Home</li> </Link>
+							{/* <Link to="/"> <li>Home</li> </Link>
                     
                     <Link to="/about">
 						<li>About</li>{" "}

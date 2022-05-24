@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+// import "./restyle.css"
 import Header from "./Header";
 import likes from "../images/about.png";
 import Features from "./Features";
@@ -47,7 +48,7 @@ function About() {
 						We are Vegrobern... Scale-up that's what we mean.
 					</p>
 				</div>
-				<div className="img-image">
+				<div className="img-image about">
 					<img src={likes} alt="likes" />
 				</div>
 			</div>

@@ -84,7 +84,7 @@ function Home() {
 					<img src={relax} alt="relax" />
 				</div>
 				<div className="ctext">
-					<h1>Relax, Make we run am for you one time</h1>
+					<h1>Relax, make we run am for you one time</h1>
 				</div>
 			</div>
 			{/* <Footer /> */}

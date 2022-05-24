@@ -24,7 +24,7 @@ function Services() {
 			</div>
 
 			{/* <Features /> */}
-			<div className="intro2">
+			<div className="intro2 reverse">
 				<div className="intro-text">
 					<h1>Website Development</h1>
 					<p>
@@ -46,7 +46,7 @@ function Services() {
 					<img src={web} alt="web" />
 				</div>
 			</div>
-			<div className="intro2">
+			<div className="intro2 column">
 				<div className="img-image">
 					<img alt="branding" src={branding} />
 				</div>
@@ -68,7 +68,7 @@ function Services() {
 					</p>
 				</div>
 			</div>
-			<div className="intro2">
+			<div className="intro2 reverse">
 				<div className="intro-text">
 					<h1>Business Development</h1>
 					<p>

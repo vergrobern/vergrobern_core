@@ -16,7 +16,7 @@ function Header() {
 						<img src={logo} alt="logo" />{" "}
 					</Link>
 				</div>
-				<ul className={`nav ${isOpen ? "transform" : "trans"}`}>
+				<ul className={["nav", isOpen ? "transform" : "trans"]}>
 					<div className="mobile">
 						<img src={logo} alt="logo" />
 						<MdClose className="close" onClick={() => setIsOpen(!isOpen)} />
